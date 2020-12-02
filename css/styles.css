@@ -1,0 +1,12 @@
+button {
+    display: block;
+    height: 2rem;
+    line-height: 2rem;
+    margin: .25rem;
+}
+
+.operator {
+    display: flex;
+    flex-direction: row;
+    
+}
