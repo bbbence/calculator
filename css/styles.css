@@ -1,12 +1,30 @@
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+.allkeys {
+    display: flex;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+}
+
+.tall {
+    flex-grow: 1;
+    color: #FFFFFF;
+    background-color: #008080;
+}
+
 button {
     display: block;
     height: 2rem;
     line-height: 2rem;
     margin: .25rem;
-}
-
-.operator {
-    display: flex;
-    flex-direction: row;
-    
-}
